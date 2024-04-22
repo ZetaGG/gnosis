@@ -110,23 +110,7 @@ class _RegisterFormState extends State<RegisterForm> {
             ),
           ),
           
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              TextButton(
-                onPressed: () {
-                  GoRouter.of(context).push('/register');
-                },
-                child: const Text(
-                  'No tengo cuenta',
-                  style: TextStyle(
-                    color: Color.fromARGB(255, 24, 166, 255),
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-            ],
-          ),
+          
         ],
       ),
     );
